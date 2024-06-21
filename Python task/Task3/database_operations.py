@@ -1,3 +1,19 @@
+# MySQL Database Operations with Python 
+# Problem Statement:
+# Your task is to write a Python program that accomplishes the following:
+# First create a database , table and add these column ‘student_id’, ‘first_name’, ‘last_name’,‘age’, ‘grade’.
+# Connects to your MySQL database with python.
+# Inserts a new student record into the "students" table with the following details:
+# First Name: "Alice"
+# Last Name: "Smith"
+# Age: 18
+# Grade: 95.5
+# Updates the grade of the student with the first name "Alice" to 97.0.
+# Deletes the student with the last name "Smith."
+# Fetches and displays all student records from the "students" table.
+
+
+
 import mysql.connector
 
 # Function to connect to MySQL and perform operations

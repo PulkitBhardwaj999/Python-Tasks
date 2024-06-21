@@ -1,3 +1,0 @@
-Run the Python script by typing:    
-1  python create_database_and_table.py
-2  python database_operations.py
